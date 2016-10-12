@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.4/4b4b7962d1bc75af0438f5c81ec1010557bc9ee5/gdx-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="4b4b7962d1bc75af0438f5c81ec1010557bc9ee5">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-1.9.4_59e9393d2ab0db57d6ff30096668e8a197a86723/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="30d11665ccc715f5415220f9a9658853fe640e28">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40a5fab714681ecbf33a187616f57676e25b8dd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7d26482b02ccdbdf9008176c8b817f44814d0b3e">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2c9d1dda5e91ce8d2363f1e5d649afb48044efa2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx-backend-android/1.9.4/194b33382d6d58fad031521ba3331d926c476c9b/gdx-backend-android-1.9.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="194b33382d6d58fad031521ba3331d926c476c9b">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/gdx-backend-android-1.9.4_a8943c6f05473b70e4f7948f7b1eb0fb20dfdd6b/classes.dex" />
+    </item>
+
+</items>
