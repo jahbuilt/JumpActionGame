@@ -12,12 +12,12 @@
     </item>
     <item
         is-multidex="true"
-        jar="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/libs/internal_impl-21.0.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="30d11665ccc715f5415220f9a9658853fe640e28">
-        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40a5fab714681ecbf33a187616f57676e25b8dd2/classes.dex" />
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.0_b747e1cf5c60fa1dce2bc7243c840362798f7c60/classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -25,8 +25,44 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="7d26482b02ccdbdf9008176c8b817f44814d0b3e">
+        sha1="9336ecd883483f087220a053fb4801d2d848e3cf">
         <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2c9d1dda5e91ce8d2363f1e5d649afb48044efa2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-6.5.87_9e2551794eeb3b0a1a1c473364dd41f33c038acc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.0_8aea8a9afd6de44eccf3b91eceb6868184b55e06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="a3c6958fba5c921bf3ccc699d880153541351d52">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40a5fab714681ecbf33a187616f57676e25b8dd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/ninomiyaatsushi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.0_06ea047dd31b6a0671e46a17380363b6dcfa38c0/classes.dex" />
     </item>
     <item
         is-multidex="true"
