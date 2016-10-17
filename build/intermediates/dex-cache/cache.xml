@@ -25,7 +25,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="9336ecd883483f087220a053fb4801d2d848e3cf">
+        sha1="26cd51a8c0523192f14e8e5996d74ddf92b75aad">
         <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_2c9d1dda5e91ce8d2363f1e5d649afb48044efa2/classes.dex" />
     </item>
     <item
@@ -52,7 +52,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="a3c6958fba5c921bf3ccc699d880153541351d52">
+        sha1="4aa7b8a88e3350030f36c882017402ba38c18367">
         <dex dex="/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_40a5fab714681ecbf33a187616f57676e25b8dd2/classes.dex" />
     </item>
     <item

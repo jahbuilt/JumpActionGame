@@ -88,12 +88,12 @@
         "source": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-mdpi/common_signin_btn_text_normal_light.9.png"
     },
     {
-        "merged": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/res/merged/debug/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png",
-        "source": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png"
-    },
-    {
         "merged": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/res/merged/debug/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png",
         "source": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-mdpi/common_signin_btn_icon_disabled_focus_dark.9.png"
+    },
+    {
+        "merged": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/res/merged/debug/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png",
+        "source": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/drawable-mdpi/common_signin_btn_icon_disabled_light.9.png"
     },
     {
         "merged": "/Users/ninomiyaatsushi/AndroidStudioProjects/JumpActionGame/android/build/intermediates/res/merged/debug/drawable-mdpi/ic_launcher.png",

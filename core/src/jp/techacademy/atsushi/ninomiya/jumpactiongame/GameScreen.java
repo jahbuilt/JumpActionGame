@@ -7,6 +7,7 @@ package jp.techacademy.atsushi.ninomiya.jumpactiongame;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Preferences;
 import com.badlogic.gdx.ScreenAdapter;
+import com.badlogic.gdx.audio.Sound;
 import com.badlogic.gdx.graphics.GL20;
 import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.graphics.Texture;
@@ -20,6 +21,8 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+
+
 
 public class GameScreen extends ScreenAdapter {
     static final float CAMERA_WIDTH = 10;
@@ -60,6 +63,10 @@ public class GameScreen extends ScreenAdapter {
     int mHighScore;
     Preferences mPrefs; // ←追加する
 
+    Sound sound1;
+    Sound sound2;
+
+
     public GameScreen(JumpActionGame game) {
         mGame = game;
 
@@ -96,6 +103,10 @@ public class GameScreen extends ScreenAdapter {
         mHighScore = mPrefs.getInteger("HIGHSCORE", 0); // ←追加する
 
         createStage();
+
+        sound1 = Gdx.audio.newSound(Gdx.files.internal("giant_robot_attacking3.mp3"));
+        sound2 = Gdx.audio.newSound(Gdx.files.internal("coin05.mp3"));
+
     }
 
     @Override
@@ -290,6 +301,7 @@ public class GameScreen extends ScreenAdapter {
             Enemy enemy = mEnemies.get(i);
 
             if (mPlayer.getBoundingRectangle().overlaps(enemy.getBoundingRectangle())) {
+                sound1.play();
                 mGameState = GAME_STATE_GAMEOVER;
                 return;
             }
@@ -305,6 +317,7 @@ public class GameScreen extends ScreenAdapter {
 
             if (mPlayer.getBoundingRectangle().overlaps(star.getBoundingRectangle())) {
                 star.get();
+                sound2.play();
                 mScore++;
                 if (mScore > mHighScore) {
                     mHighScore = mScore;
@@ -344,6 +357,7 @@ public class GameScreen extends ScreenAdapter {
     private void checkGameOver() {
         if (mHeightSoFar - CAMERA_HEIGHT / 2 > mPlayer.getY()) {
             Gdx.app.log("JampActionGame", "GAMEOVER");
+            sound1.play();
             mGameState = GAME_STATE_GAMEOVER;
         }
     }
